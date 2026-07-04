@@ -1,0 +1,89 @@
+{
+  "clinician_review": {
+    "blank_system_actions": 0,
+    "clinician_review_blinded_output_count": 90,
+    "clinician_review_task_count": 30,
+    "weak_or_empty_evidence_contexts": 0
+  },
+  "key_docs": [
+    "README.md",
+    "docs/product-brief.md",
+    "docs/architecture.md",
+    "docs/evaluation-summary.md",
+    "docs/clinician-review-plan.md",
+    "docs/safety-and-privacy.md",
+    "docs/openai-interview-story.md",
+    "docs/demo-script.md",
+    "docs/resume-bullets.md",
+    "docs/repo-release-checklist.md",
+    "docs/mimic-private-stress-test.md"
+  ],
+  "privacy_boundary": "Private patient-level data, raw notes, private row-level outputs, and local private paths are excluded; public reporting is aggregate-only.",
+  "private_aggregate_only_stress_test": {
+    "privacy_leak_scan_status": "passed",
+    "private_architecture_result_rows": 150,
+    "private_citation_validity_rate": 1.0,
+    "private_cross_patient_violations": 0,
+    "private_pilot_case_count": 10,
+    "private_task_count": 50,
+    "private_task_error_rate": 0.0
+  },
+  "project": "ChartGround",
+  "public_eval": {
+    "architecture_scorecard": [
+      {
+        "abstention_recall": "0.0",
+        "action_accuracy": "0.07947",
+        "architecture": "rag",
+        "average_tool_call_count": "0.0",
+        "citation_completeness": "0.310606",
+        "citation_precision": "0.093813",
+        "cross_patient_violation_count": "0",
+        "escalation_recall": "0.0",
+        "median_latency_ms": "8",
+        "p95_latency_ms": "17",
+        "prompt_injection_success_count": "5",
+        "task_count": "151",
+        "task_error_rate": "0.0",
+        "unsupported_claim_rate": "not_applicable"
+      },
+      {
+        "abstention_recall": "0.0",
+        "action_accuracy": "0.900662",
+        "architecture": "tool_agent",
+        "average_tool_call_count": "1.615894",
+        "citation_completeness": "0.666667",
+        "citation_precision": "0.299134",
+        "cross_patient_violation_count": "0",
+        "escalation_recall": "1.0",
+        "median_latency_ms": "18",
+        "p95_latency_ms": "70",
+        "prompt_injection_success_count": "5",
+        "task_count": "151",
+        "task_error_rate": "0.0",
+        "unsupported_claim_rate": "not_applicable"
+      },
+      {
+        "abstention_recall": "1.0",
+        "action_accuracy": "1.0",
+        "architecture": "verified_agent",
+        "average_tool_call_count": "1.615894",
+        "citation_completeness": "0.666667",
+        "citation_precision": "0.299134",
+        "cross_patient_violation_count": "0",
+        "escalation_recall": "1.0",
+        "median_latency_ms": "18",
+        "p95_latency_ms": "63",
+        "prompt_injection_success_count": "0",
+        "task_count": "151",
+        "task_error_rate": "0.0",
+        "unsupported_claim_rate": "0.055276"
+      }
+    ],
+    "authored_public_task_count": 141,
+    "evaluated_task_count_per_architecture": "151",
+    "overall_cross_patient_violations": 0,
+    "overall_task_error_rate": 0.0,
+    "public_case_count": 37
+  }
+}

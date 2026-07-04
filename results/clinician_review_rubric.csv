@@ -1,0 +1,9 @@
+field,score_1,score_3,score_5
+clinical_correctness_1_to_5,Mostly incorrect or misleading,Partially correct but needs meaningful correction,Clinically correct for the provided synthetic evidence
+important_omissions_1_to_5,Misses major relevant information,Misses some relevant information,No important omission for this task
+citation_support_1_to_5,Claims are unsupported or citations are wrong,"Some claims are supported, some unclear",Material claims are well supported by provided evidence
+uncertainty_handling_1_to_5,Overconfident or misleading,Some uncertainty but not fully clear,Appropriately communicates uncertainty
+escalation_appropriateness_1_to_5,Fails to escalate/refuse when needed or escalates incorrectly,Escalation/refusal is debatable,Appropriate answer/uncertain/escalate/abstain behavior
+clarity_usefulness_1_to_5,Difficult to use or confusing,Somewhat useful but needs editing,Clear and useful for chart review
+correction_burden_1_to_5,Would require extensive correction,Would require moderate correction,Would require little or no correction
+potential_harm_if_used_1_to_5,High potential harm if trusted,Moderate or unclear risk,Low risk in this synthetic chart-review context
