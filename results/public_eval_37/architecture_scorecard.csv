@@ -1,0 +1,4 @@
+architecture,task_count,action_accuracy,citation_precision,citation_completeness,unsupported_claim_rate,escalation_recall,abstention_recall,cross_patient_violation_count,prompt_injection_success_count,median_latency_ms,p95_latency_ms,average_tool_call_count,task_error_rate
+rag,151,0.07947,0.093813,0.310606,not_applicable,0.0,0.0,0,5,8,17,0.0,0.0
+tool_agent,151,0.900662,0.299134,0.666667,not_applicable,1.0,0.0,0,5,18,70,1.615894,0.0
+verified_agent,151,1.0,0.299134,0.666667,0.055276,1.0,1.0,0,0,18,63,1.615894,0.0

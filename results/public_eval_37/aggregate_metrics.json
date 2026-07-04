@@ -1,0 +1,156 @@
+{
+  "architectures": {
+    "rag": {
+      "abstention_recall": 0.0,
+      "action_accuracy": 0.07947,
+      "average_tool_call_count": 0.0,
+      "average_unsupported_claim_count": "not_applicable",
+      "citation_completeness": 0.310606,
+      "citation_precision": 0.093813,
+      "citation_recall": 0.310606,
+      "cross_patient_violation_count": 0,
+      "escalation_recall": 0.0,
+      "false_escalation_rate": 0.0,
+      "median_latency_ms": 8,
+      "p95_latency_ms": 17,
+      "prompt_injection_success_count": 5,
+      "task_count": 151,
+      "task_error_rate": 0.0,
+      "unsupported_claim_rate": "not_applicable"
+    },
+    "tool_agent": {
+      "abstention_recall": 0.0,
+      "action_accuracy": 0.900662,
+      "average_tool_call_count": 1.615894,
+      "average_unsupported_claim_count": "not_applicable",
+      "citation_completeness": 0.666667,
+      "citation_precision": 0.299134,
+      "citation_recall": 0.666667,
+      "cross_patient_violation_count": 0,
+      "escalation_recall": 1.0,
+      "false_escalation_rate": 0.0,
+      "median_latency_ms": 18,
+      "p95_latency_ms": 70,
+      "prompt_injection_success_count": 5,
+      "task_count": 151,
+      "task_error_rate": 0.0,
+      "unsupported_claim_rate": "not_applicable"
+    },
+    "verified_agent": {
+      "abstention_recall": 1.0,
+      "action_accuracy": 1.0,
+      "average_tool_call_count": 1.615894,
+      "average_unsupported_claim_count": 0.072848,
+      "citation_completeness": 0.666667,
+      "citation_precision": 0.299134,
+      "citation_recall": 0.666667,
+      "cross_patient_violation_count": 0,
+      "escalation_recall": 1.0,
+      "false_escalation_rate": 0.0,
+      "median_latency_ms": 18,
+      "p95_latency_ms": 63,
+      "prompt_injection_success_count": 0,
+      "task_count": 151,
+      "task_error_rate": 0.0,
+      "unsupported_claim_rate": 0.055276
+    }
+  },
+  "by_evaluation_focus": {
+    "conflict_escalation": {
+      "action_accuracy": 0.666667,
+      "task_rows": 9
+    },
+    "cross_patient": {
+      "action_accuracy": 0.333333,
+      "task_rows": 9
+    },
+    "grounded_summary": {
+      "action_accuracy": 0.666667,
+      "task_rows": 90
+    },
+    "lab_trend": {
+      "action_accuracy": 0.666667,
+      "task_rows": 90
+    },
+    "medication": {
+      "action_accuracy": 0.666667,
+      "task_rows": 87
+    },
+    "medication_uncertainty": {
+      "action_accuracy": 1.0,
+      "task_rows": 21
+    },
+    "missing_information": {
+      "action_accuracy": 1.0,
+      "task_rows": 9
+    },
+    "prompt_injection": {
+      "action_accuracy": 0.333333,
+      "task_rows": 9
+    },
+    "radiology_comparison": {
+      "action_accuracy": 0.666667,
+      "task_rows": 48
+    },
+    "unspecified": {
+      "action_accuracy": 0.611111,
+      "task_rows": 72
+    },
+    "unsupported_inference": {
+      "action_accuracy": 0.333333,
+      "task_rows": 9
+    }
+  },
+  "by_task_type": {
+    "adversarial": {
+      "action_accuracy": 0.533333,
+      "task_rows": 30
+    },
+    "conflict_escalation": {
+      "action_accuracy": 0.666667,
+      "task_rows": 9
+    },
+    "cross_patient_safety": {
+      "action_accuracy": 0.333333,
+      "task_rows": 9
+    },
+    "diagnostic_evidence_check": {
+      "action_accuracy": 0.666667,
+      "task_rows": 21
+    },
+    "evidence_grounded_summary": {
+      "action_accuracy": 0.666667,
+      "task_rows": 111
+    },
+    "lab_trend": {
+      "action_accuracy": 0.666667,
+      "task_rows": 90
+    },
+    "medication_review": {
+      "action_accuracy": 0.731481,
+      "task_rows": 108
+    },
+    "missing_information": {
+      "action_accuracy": 1.0,
+      "task_rows": 9
+    },
+    "prompt_injection": {
+      "action_accuracy": 0.333333,
+      "task_rows": 9
+    },
+    "radiology_comparison": {
+      "action_accuracy": 0.666667,
+      "task_rows": 48
+    },
+    "unsupported_inference": {
+      "action_accuracy": 0.333333,
+      "task_rows": 9
+    }
+  },
+  "overall": {
+    "cross_patient_violation_count": 0,
+    "prompt_injection_success_count": 10,
+    "task_error_rate": 0.0,
+    "task_rows": 453
+  }
+}
