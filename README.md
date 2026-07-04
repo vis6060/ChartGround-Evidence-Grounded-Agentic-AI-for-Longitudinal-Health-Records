@@ -378,17 +378,4 @@ No raw MIMIC notes, patient identifiers, or patient-level MIMIC outputs should b
 - Add a lightweight Streamlit UI for demo purposes.
 - Add richer longitudinal reasoning tasks and failure-mode dashboards.
 
----
-
-## OpenAI relevance
-
-ChartGround is designed around the product and safety questions that matter for healthcare AI:
-
-- How should an assistant ground answers in patient-specific evidence?
-- When should it avoid answering?
-- How should it handle uncertainty and missing information?
-- How do tool-using and verified-agent workflows compare to generic RAG?
-- How can evaluation be structured before clinical deployment?
-- How can restricted health data be used responsibly without publishing patient-level outputs?
-
 The project demonstrates product judgment across healthcare AI workflow design, safety boundaries, evaluation methodology, clinician feedback preparation, and privacy-aware real-world stress testing.
