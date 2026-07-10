@@ -6,6 +6,16 @@ The goal is not to build a diagnosis or treatment tool. The goal is to test what
 
 ---
 
+## Demo Video
+
+[Watch the 3-minute ChartGround demo video](https://drive.google.com/file/d/1cRW7vmpQo8sznUAmtz-j-1qJSQRzdf_0/view?usp=sharing)
+
+The demo shows how ChartGround compares RAG, tool-agent, and verified-agent architectures for longitudinal chart review. It highlights patient-scoped retrieval, deterministic clinical tools, citation validation, claim-support checking, conflict detection, escalation behavior, public synthetic evaluation results, clinician-review export, and private aggregate-only MIMIC stress testing.
+
+> Note: This project is not a clinical product or diagnosis tool. It is a public-safe healthcare AI evaluation prototype using synthetic data, with restricted MIMIC results reported only in aggregate.
+
+---
+
 ## Why this project matters
 
 Clinical chart review often requires reconstructing a patient story from scattered labs, medications, radiology reports, notes, encounters, procedures, and conflicting or missing information.
